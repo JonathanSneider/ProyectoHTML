@@ -1,0 +1,25 @@
+.cabezera{
+    padding: 0 40px;
+    height: 80px;
+    background-color: rgb(29, 20, 50);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#derecha{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 80px;
+    right: 0;
+    background-color: blue;
+    display: grid;
+    place-items: center;
+    clip-path: circle(0% at top left);
+    transition: clip-path .4s;
+}
+
+#derecha:target{
+    clip-path: circle(150% at top left);
+}
