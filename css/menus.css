@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
+    list-style: none;
 }
-
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+}
 body {
     margin: 0; /* Eliminamos el margen predeterminado */
     padding: 0; /* Eliminamos el relleno predeterminado */
@@ -16,14 +19,6 @@ body {
     max-width: 100%; /* Limitamos el ancho máximo del contenido */
     margin: 0 auto; /* Centramos el contenido horizontalmente */
     padding: 5px; /* Añadimos un poco de espacio alrededor del contenido */
-    background-color: rgb(29, 20, 50); /* Color de fondo */
-}
-
-#cabezera {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
 }
 
 #Food {
@@ -33,29 +28,11 @@ body {
     color: #ff702a;
 }
 
-#derecha {
-    font-size: 2.5em; /* Utilizamos una unidad de medida relativa */
-    color: white;
-}
 
-#derecha a {
-    margin-left: 0.5em; /* Utilizamos una unidad de medida relativa */
-    color: white;
-}
-
-#AboutUs {
-    color: rgb(255, 255, 255);
-    font-size: 2em; /* Utilizamos una unidad de medida relativa */
-}
 
 .Titulo {
     color: #ff702a;
     font-size: 4.4rem; /* Utilizamos una unidad de medida relativa */
-}
-
-#Abs {
-    color: rgb(255, 255, 255);
-    font-size: 0.9em; /* Utilizamos una unidad de medida relativa */
 }
 
 #textoHm {
@@ -63,32 +40,42 @@ body {
     color: rgb(255, 255, 255);
 }
 
-.imgAb, .ImgHm {
-    width: 70%; /* Hacemos que las imágenes sean responsivas */
+.ImgHm {
+    width: 65%; /* Hacemos que las imágenes sean responsivas */
     max-width: 600px;
     padding: 10px;
     box-sizing: border-box;
     overflow: auto;
 }
 
-.cabezera {
-    display: flex; /* Alineación horizontal */
-    justify-content: space-between; /* Espacio entre los elementos */
-    align-items: center; /* Centra verticalmente los elementos */
-    padding: 10px; /* Agregamos un poco de espacio interno */
-}
-
-#derecha {
-    font-family: 'Poppins', sans-serif;
-    font-size: 125%;
-}
-
 #derecha a {
-    margin-left: 10px; /* Agregamos espacio entre los enlaces */
-    color: white; /* Cambiamos el color del texto */
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+    color: rgb(255, 255, 255); /* Cambiamos el color del texto */
     text-decoration: none; /* Quitamos el subrayado */
 }
 
 .container {
     background-color: rgb(29, 20, 50);
+}
+
+.Home{
+    margin-bottom: 39px;
+}
+.lista li{
+    display: inline-block;
+    margin-right: 15px;
+    text-transform: uppercase;
+}
+.lista li a.active, li a:hover{
+    background-color: transparent; /* Hace que el fondo sea transparente */
+    border: 2px solid #118C5A; /* Establece un borde de 2px sólido con color naranja */
+    color: #000; /* Cambia el color del texto, si es necesario */
+    padding: 2px 4px;
+    transition: 0.5s; /* Agrega una transición suave */
+}
+.checkbtn{
+    font-size: 30px;
+    color: aliceblue;
+    float: right;
 }
