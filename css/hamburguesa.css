@@ -3,10 +3,9 @@
     min-height: 550px;
     height: auto;
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    border: 5px solid #FA5252;
     
 }
 .cabezera{
@@ -18,23 +17,28 @@
     justify-content: space-between;
 }
 
-#derecha{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    top: 80px;
-    right: 0;
-    background-color: blue;
-    display: grid;
-    place-items: center;
-    clip-path: circle(0% at top left);
-    transition: clip-path .4s;
-}
-
-#derecha:target{
-    clip-path: circle(150% at top left);
-}
-#FullWebsite{
+#FullWebsite {
     box-sizing: border-box;
     overflow: auto;
+    text-align: left; /* Por defecto, el texto se alinea a la izquierda */
+}
+
+/* Media query para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    #FullWebsite {
+        text-align: center; /* Centra el texto horizontalmente solo en dispositivos móviles */
+    }
+}
+.boton {
+    background-color: #ff702a; /* Color de fondo */
+    border: none; /* Sin borde */
+    color: white; /* Color del texto */
+    padding: 6px 10px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mostrar como bloque en línea */
+    font-size: 16px; /* Tamaño de la fuente */
+    margin: 4px 2px; /* Margen externo */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    border-radius: 8px; /* Borde redondeado */
 }

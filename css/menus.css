@@ -27,9 +27,9 @@ body {
 }
 
 #Food {
-    margin-left: 5%;
+    margin-left: 2%;
     margin-top: -3%;
-    font-size: 2.5em; /* Utilizamos una unidad de medida relativa */
+    font-size: 1.8em; /* Utilizamos una unidad de medida relativa */
     color: #ff702a;
 }
 
@@ -50,7 +50,7 @@ body {
 
 .Titulo {
     color: #ff702a;
-    font-size: 5rem; /* Utilizamos una unidad de medida relativa */
+    font-size: 4.4rem; /* Utilizamos una unidad de medida relativa */
 }
 
 #Abs {
@@ -59,6 +59,7 @@ body {
 }
 
 #textoHm {
+    font-size: 1.2rem;
     color: rgb(255, 255, 255);
 }
 
