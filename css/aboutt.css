@@ -13,10 +13,11 @@
     
 }
 
+
 .ImgAb {
-    width: 65%; /* Hacemos que las imágenes sean responsivas */
+    width: 70%; /* Hacemos que las imágenes sean responsivas */
     max-width: 600px;
-    padding: 10px;
+    padding: 25px;
     box-sizing: border-box;
     overflow: auto;
 }
@@ -42,7 +43,7 @@
 }
 
 
-
+/* hacer que sea responsivo */
 @media screen and (max-width: 768px) {
     #Aboutz{
         text-align: center; /* Centra el texto horizontalmente solo en dispositivos móviles */

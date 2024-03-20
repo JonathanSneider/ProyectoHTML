@@ -22,7 +22,7 @@
     text-align: left; /* Por defecto, el texto se alinea a la izquierda */
 }
 
-/* Media query para dispositivos móviles */
+/* hacer que sea responsivo */
 @media screen and (max-width: 768px) {
     #FullWebsite {
         text-align: center; /* Centra el texto horizontalmente solo en dispositivos móviles */
