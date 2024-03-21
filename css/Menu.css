@@ -29,7 +29,7 @@
 }
 
 #fod div img {
-    width: 14em; /* Ancho de imagen para dispositivos más grandes */
+    height: 50%; /* Ancho de imagen para dispositivos más grandes */
 }
 
 #food-menu div:nth-child(2) div {
@@ -63,7 +63,7 @@
 }
 
 /* hacer que sea responsivo */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 776px) {
     #food-menu div:nth-child(2) {
         width: 100%;
         display: flex;
@@ -74,7 +74,6 @@
 
     #food-menu div:nth-child(2)  {
         width: 100%; /* Ancho de los divs con imágenes en dispositivos móviles */
-        max-width: 400px;
         margin-bottom: 10px; /* Espacio entre los divs */
     }
 

@@ -18,7 +18,7 @@ body {
 .container {
     max-width: 100%; /* Limitamos el ancho máximo del contenido */
     margin: 0 auto; /* Centramos el contenido horizontalmente */
-    padding: 5px; /* Añadimos un poco de espacio alrededor del contenido */
+    padding: 0px; /* Añadimos un poco de espacio alrededor del contenido */
 }
 
 #Food {
@@ -32,7 +32,7 @@ body {
 
 .Titulo {
     color: #ff702a;
-    font-size: 4.4rem; /* Utilizamos una unidad de medida relativa */
+    font-size: 4.2rem; /* Utilizamos una unidad de medida relativa */
 }
 
 #textoHm {
@@ -53,6 +53,32 @@ body {
     font-size: 100%;
     color: rgb(255, 255, 255); /* Cambiamos el color del texto */
     text-decoration: none; /* Quitamos el subrayado */
+}
+#iclas {
+    color: #ff702a;
+    font-size: 2.3em;
+
+}
+#menu-hamburguesa:checked + label + #menu-desplegable {
+    height: 300px;
+}
+#menu-desplegable {
+    display: flex;
+    width: 100vw;
+    height: 0px;
+    overflow: hidden;
+    background-color: #2C2B47;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: height 0.5s;
+    z-index: 2;
+}
+.inpust{
+    display: none;
 }
 
 .container {
@@ -78,4 +104,14 @@ body {
     font-size: 30px;
     color: aliceblue;
     float: right;
+}
+@media screen and (max-width: 750px) {
+    .nav1 {
+        display: none;
+    }
+}
+@media screen and (min-width: 750px) {
+    #derecha-nav-cel {
+        display: none;
+    }
 }
