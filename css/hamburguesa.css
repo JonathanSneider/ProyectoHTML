@@ -25,13 +25,15 @@
 #FullWebsite {
     box-sizing: border-box;
     overflow: auto;
-    text-align: left; /* Por defecto, el texto se alinea a la izquierda */
+    text-align: left; /* Alinear texto a la izquierda */
+    margin-top: 9vw;
 }
 
 /* hacer que sea responsivo */
 @media screen and (max-width: 768px) {
     #FullWebsite {
-        text-align: center; /* Centra el texto horizontalmente solo en dispositivos móviles */
+        margin-top: 24vw;
+        text-align: center; /* centrar el texto en celulares*/
     }
 }
 .boton {

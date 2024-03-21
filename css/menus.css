@@ -85,9 +85,10 @@ body {
     background-color: #1E1D2B;
 }
 
-.Home{
-    margin-bottom: 39px;
+#Home{
+    margin-bottom: 50px;
 }
+
 .lista li{
     display: inline-block;
     margin-right: 15px;

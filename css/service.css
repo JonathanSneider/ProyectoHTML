@@ -1,0 +1,64 @@
+#sr h6 {
+    color: #ff702a;
+    text-align: center;
+    font-size:1.8em;
+    margin-bottom: 3px;
+}
+#sr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+#sr div img {
+    width: 60%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+#sr div {
+    margin-bottom: 1;
+    
+}
+
+#sr p {
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+@media screen and (max-width: 776px) {
+    #sr{
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #sr div img {
+        margin: 0 auto;
+        left: 20vw;
+        min-width: 180px;
+        width: 30%;
+        aspect-ratio: 1 / 1;
+        display: flex;
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+}
+
+
+
+

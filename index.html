@@ -4,46 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foods</title>
+    <!-- Enlaces a los archivos CSS -->
     <link rel="stylesheet" href="css/menus.css">
     <link rel="stylesheet" href="css/hamburguesa.css">
     <link rel="stylesheet" href="css/aboutt.css">
     <link rel="stylesheet" href="css/Menu.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="css/service.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
 <body >
+    <!-- Contenedor principal -->
     <div class="container">
-        <div class="Home">
+        <!-- Sección Home -->
+        <div id="Home">
+            <!-- Barra de navegación -->
             <nav class="cabezera">
                 <div id="FoodContainer">
                     <div id="Food">
                         <h4>Foods</h4>
                     </div>
                 </div>
-            <div id="derecha">
-                <nav class="nav1">
-                    <a href=# class="enlace"></a>
-                    <ul class="lista">
-                        <li><a href="#Home">Home</a></li>
-                        <li><a href="#About">About</a></li>
-                        <li><a href="#fod">Menu</a></li>
-                        <li><a href="#service">Service</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
-                <div id="derecha-nav-cel">
-                    <input class="inpust" type="checkbox" id="menu-hamburguesa">
-                    <label for="menu-hamburguesa"><i id="iclas" class='bx bx-menu menu-icon'></i></label>
-                    <div id="menu-desplegable">
-                        <a href="#home">home</a>
-                        <a href="#About">about</a>
-                        <a href="#fod">menu</a>
-                        <a href="#service">services</a>
-                        <a href="#contact">contact</a>
+                <!-- Opciones de navegación -->
+                <div id="derecha">
+                    <nav class="nav1">
+                        <a href=# class="enlace"></a>
+                        <ul class="lista">
+                            <li><a href="#Home">Home</a></li>
+                            <li><a href="#About">About</a></li>
+                            <li><a href="#fod">Menu</a></li>
+                            <li><a href="#Service">Service</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <!-- Menú desplegable para celulares -->
+                    <div id="derecha-nav-cel">
+                        <input class="inpust" type="checkbox" id="menu-hamburguesa">
+                        <label for="menu-hamburguesa"><i id="iclas" class='bx bx-menu menu-icon'></i></label>
+                        <div id="menu-desplegable">
+                            <a href="#Home">home</a>
+                            <a href="#About">about</a>
+                            <a href="#fod">menu</a>
+                            <a href="#Service">services</a>
+                            <a href="#contact">contact</a>
+                        </div>
                     </div>
                 </div>
-                <section></section>
-            </div>
             </nav>
+            <!-- Contenido de la sección Home -->
             <div class="head1">
                 <head>
                     <div id="FullWebsite">
@@ -58,6 +66,7 @@
                 <img class="ImgHm" src="img/home.png" alt="">
             </div>
         </div>
+        <!-- Sección About -->
         <div id="About">
             <img class="ImgAb" src="img/about.png" alt="">
             <head>
@@ -75,17 +84,17 @@
                 </div>
             </head>
         </div>
+        <!-- Sección de Menú de Comida -->
         <section id="food-menu">
             <div class="tix1">
                 <h5 id="timn">Food Menu</h5>
-                <p id="parradox">Fresh taste and grat price</p>
+                <p id="parradox">Fresh taste and great price</p>
             </div>
             <div id="fod">
+                <!-- Contenido del menú de comida -->
                 <div>
                     <i class="bx bx-cart"></i>
-
                     <img src="img/food1.png" alt="">
-
                     <h6>Chicken Burger</h6>
                     <p>Tasty Food</p>
                     <p class="dinero">$11.00</p>
@@ -107,8 +116,79 @@
             </div>
             
         </section>
-        <div id="Service"></div>
-        <div id="Contact"></div>
+        <!-- Sección de Servicios -->
+        <div id="Service">
+            <div class="tix1">
+                <h5 id="timn">Service</h5>
+                <p id="parradox">We provide best food services</p>
+            </div>
+            <div id="sr">
+                <!-- Contenido de los servicios -->
+                <div>
+                    <img src="img/s1.png" alt="">
+                    <h6>Order</h6>
+                    <p>It is a long established <br>be distracted by the readable <br> lookingat its layout.</p>
+                </div>
+                <div>
+                    <img src="img/s2.png" alt="">
+                    <h6>Shipping</h6>
+                    <p>It is a long established <br>be distracted by the readable <br> lookingat its layout.</p>
+                </div>
+                <div>
+                    <img src="img/s3.png" alt="">
+                    <h6>Delivered</h6>
+                    <p>It is a long established <br>be distracted by the readable <br> lookingat its layout.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Ultima parte de la pagina -->
+        <section id="footer">
+            <section id="Cnct">
+                <div>
+                    <h1>We make quality food <br>
+                    Everyday</h1>
+                    <a href=""><button>Learn More</button></a>
+                </div>
+            </section>
+            <footer>
+                <div>
+                    <h3>Menu Links</h3>
+                    <hr>
+                    <a href="#Home">home</a>
+                    <a href="#about-us">about</a>
+                    <a href="#food-menu">menu</a>
+                    <a href="#services">services</a>
+                    <a href="#contact">contact</a>
+                </div>
+                <div>
+                    <h3>Our Servive</h3>
+                    <hr>
+                    <a href="">Web Design</a>
+                    <a href="">Web Development</a>
+                    <a href="">Marketing</a>
+                    <a href="">Product Management</a>
+                    <a href="">Graphic Design</a>
+                </div>
+                <div>
+                    <h3>Information</h3>
+                    <hr>
+                    <a href="">About Us</a>
+                    <a href="">Delivery Information</a>
+                    <a href="">Privacy Policy</a>
+                    <a href="">Terms & Conditions</a>
+                </div>
+                <div>
+                    <h3>Contact Us</h3>
+                    <hr>
+                    <div id="contact-images">
+                        <a href="https://www.instagram.com/louwzii/" target="_blank"><i class="bx bxl-instagram"></i></a>
+                        <a href="https://twitter.com/HoukenSd12547" target="_blank"><i class="bx bxl-twitter"></i></a>
+                        <a href="https://github.com/JonathanSneider" target="_blank"><i class="bx bxl-github"></i></a>
+                        <a href="https://www.linkedin.com/in/jonathan-sneider-poveda-abril-0051552ba/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                    </div>
+                </div>
+            </footer>
+        </section>
     </div>
 </body>
 </html>
