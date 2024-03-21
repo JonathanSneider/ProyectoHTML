@@ -56,10 +56,10 @@
     font-size: 200%;
     top: 0;
     right: 5%;
-    z-index: 2;
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 /* hacer que sea responsivo */
@@ -74,7 +74,6 @@
 
     #food-menu div:nth-child(2)  {
         width: 100%; /* Ancho de los divs con imágenes en dispositivos móviles */
-        margin-bottom: 10px; /* Espacio entre los divs */
     }
 
     #fod div img {

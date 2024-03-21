@@ -41,9 +41,9 @@ body {
 }
 
 .ImgHm {
+    padding-top: 10em;
     width: 70%; /* Hacemos que las imágenes sean responsivas */
-    max-width: 600px;
-    padding: 20px;
+    max-width: 450px;
     box-sizing: border-box;
     overflow: auto;
 }
@@ -108,6 +108,10 @@ body {
 @media screen and (max-width: 750px) {
     .nav1 {
         display: none;
+    }
+    .ImgHm {
+        padding-top: 2em;
+    
     }
 }
 @media screen and (min-width: 750px) {

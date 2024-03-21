@@ -6,6 +6,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 5em;
     
 }
 .cabezera {
@@ -18,6 +19,7 @@
     align-items: center;
     justify-content: space-between;
     position: fixed;
+    z-index: 2;
 }
 
 #FullWebsite {
